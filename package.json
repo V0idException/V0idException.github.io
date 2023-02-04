@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "roblox-long-polling": "^2.0.4"
+  }
+}
