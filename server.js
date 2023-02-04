@@ -1,4 +1,4 @@
-const rlp = require("roblox-long-polling")
+const rlp = require('roblox-long-polling')
 
 const poll = new rlp({
     port: "https://v0idexception.github.io/", // Add this behind your IP, example: http://127.0.0.1:2004,
