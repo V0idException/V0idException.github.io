@@ -14,7 +14,7 @@ $agent = $_SERVER['HTTP_USER_AGENT'];
 $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 $fh = fopen('logs.txt', 'a'); // you can remove these logs if you want - just for more security.
 fwrite($fh, ''."".$ip ."\n");
- $keys = array("Key Here","Key Here"); // these are all our keys, you can add more just add , after each.
+ $keys = array("TESTKEY124","TESTKEY"); // these are all our keys, you can add more just add , after each.
  $sub = $_GET["key"];
  if (in_array($sub,$keys,TRUE)) {
    echo "Whitelisted"; // when the key gets accepted the checker will return Whitelisted!
